@@ -1,0 +1,23 @@
+{
+  "name": "@prkeshri/node-codebehind",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "git:https://github.com/prkeshri/node-codebehind.git"
+  },
+  "version": "1.0.1",
+  "description": "Adds codebehind capabilities like asp.net Webforms, each page can be assigned a js file which can manipulate data in the page. Also, enhanced routing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Praveen Ranjan Keshri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.16.0",
+    "jquery": "^3.3.1",
+    "jsdom": "^13.0.0",
+    "methods": "~1.1.2"
+  }
+}
