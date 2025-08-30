@@ -1,6 +1,7 @@
 import { apply } from "./utils/expressUtil.js";
 import { getApp } from "./utils/expressUtil.js";
 import { supplement } from "js-partial-classes";
+export * from "./utils/utils.js";
 
 // Import Page class
 import PageModule from "./classes/Page.js";
