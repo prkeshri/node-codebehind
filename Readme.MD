@@ -10,7 +10,7 @@ A modernized version of the Node.js framework that brings ASP.NET WebForms-style
 - **Memory Efficiency**: Reduced memory usage by ~70%
 - **Modern JavaScript**: ES6+ features throughout
 - **TypeScript Support**: Ready for type definitions
-- **Partial Class Support**: Method injection using partial-classes dependency
+- **Partial Class Support**: Method injection using js-partial-classes dependency
 - **Static Initialization Blocks**: Seamless class supplementation
 
 ## 📦 Installation
@@ -280,7 +280,7 @@ const processedData = await serverEvents.processData({ id: 123, data: 'test' });
 
 ## 🎯 Partial Class Support
 
-The framework now includes seamless partial class support using the `partial-classes` dependency:
+The framework now includes seamless partial class support using the `js-partial-classes` dependency:
 
 ### Benefits:
 - **Code Reusability**: Share common functionality across multiple pages

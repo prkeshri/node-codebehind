@@ -1,6 +1,6 @@
 import { apply } from "./utils/expressUtil.js";
 import { getApp } from "./utils/expressUtil.js";
-import { supplement } from "../partial-classes/index.js";
+import { supplement } from "js-partial-classes";
 
 // Import Page class
 import PageModule from "./classes/Page.js";
@@ -48,7 +48,7 @@ export { getApp };
 
 /**
  * Supplements a class with methods from a partial class.
- * This function is re-exported from the partial-classes dependency.
+ * This function is re-exported from the js-partial-classes dependency.
  * 
  * @function supplement
  * @param {Function} mainClass - The target class to be supplemented
@@ -88,7 +88,7 @@ export { Page };
 
 /**
  * PartialPage class for creating partial classes that can be supplemented into main classes.
- * Uses the partial-classes dependency for method injection.
+ * Uses the js-partial-classes dependency for method injection.
  * 
  * @class PartialPage
  * @example

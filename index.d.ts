@@ -35,7 +35,7 @@ export function getApp(): Application;
 
 /**
  * Supplements a class with methods from a partial class.
- * This function is re-exported from the partial-classes dependency.
+ * This function is re-exported from the js-partial-classes dependency.
  * 
  * @param mainClass - The target class to be supplemented
  * @param partialClass - The partial class, string path, or promise
@@ -154,7 +154,7 @@ export class Page {
 
 /**
  * PartialPage class for creating partial classes that can be supplemented into main classes.
- * Uses the partial-classes dependency for method injection.
+ * Uses the js-partial-classes dependency for method injection.
  */
 export class PartialPage {
   /** Indicates this is a partial class */
