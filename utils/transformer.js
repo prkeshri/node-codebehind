@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 import { getJson } from "./utils.js";
-import { iterateDescriptors } from "../../partial-classes/index.js";
+import { iterateDescriptors } from "js-partial-classes";
 import { templateCache, manageCache, codebehindCache } from "./cache.js";
 import { requireCodebehindFile } from "./codebehindModules.js";
 import { commonScripts, commonStyles } from "./commons.js";

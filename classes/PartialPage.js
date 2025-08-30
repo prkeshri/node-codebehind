@@ -1,4 +1,4 @@
-import { iterateDescriptors } from "../../partial-classes/index.js";
+import { iterateDescriptors } from "js-partial-classes";
 
 /**
  * Base class for creating partial pages that can be supplemented into main page classes.

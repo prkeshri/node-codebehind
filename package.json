@@ -6,7 +6,7 @@
   "repository": {
     "url": "https://github.com/prkeshri/node-codebehind.git"
   },
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Modern ASP.NET WebForms-style codebehind for Express.js with server-side DOM manipulation, event handling, and partial class support using Cheerio for high performance.",
   "main": "index.js",
   "type": "module",
@@ -40,7 +40,7 @@
     "methods": "~1.1.2",
     "minify": "^14.1.0",
     "try-to-catch": "^3.0.1",
-    "js-partial-classes": "^1.0.1"
+    "js-partial-classes": "^1.0.2"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
