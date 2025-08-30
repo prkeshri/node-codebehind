@@ -4,9 +4,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {
-    "url": "git:https://github.com/prkeshri/node-codebehind.git"
+    "url": "https://github.com/prkeshri/node-codebehind.git"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Modern ASP.NET WebForms-style codebehind for Express.js with server-side DOM manipulation, event handling, and partial class support using Cheerio for high performance.",
   "main": "index.js",
   "type": "module",
