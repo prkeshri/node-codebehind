@@ -1,0 +1,9 @@
+[for][show*="progress"],
+[for][show*="failure"],
+[for][show*="success"] {
+  display: none;
+}
+
+[for][show*="initial"] {
+  display: initial;
+}

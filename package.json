@@ -1,23 +1,53 @@
 {
-  "name": "@prkeshri/node-codebehind",
+  "name": "codebehind",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "url": "git:https://github.com/prkeshri/node-codebehind.git"
   },
-  "version": "1.0.1",
-  "description": "Adds codebehind capabilities like asp.net Webforms, each page can be assigned a js file which can manipulate data in the page. Also, enhanced routing.",
+  "version": "1.1.0",
+  "description": "Modern ASP.NET WebForms-style codebehind for Express.js with server-side DOM manipulation, event handling, and partial class support using Cheerio for high performance.",
   "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "codebehind",
+    "asp-net",
+    "webforms",
+    "express",
+    "server-side",
+    "dom-manipulation",
+    "cheerio",
+    "partial-classes",
+    "event-handling",
+    "template-engine",
+    "pug",
+    "server-rendering"
+  ],
   "author": "Praveen Ranjan Keshri",
   "license": "ISC",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "dependencies": {
-    "express": "~4.16.0",
-    "jquery": "^3.3.1",
-    "jsdom": "^13.0.0",
-    "methods": "~1.1.2"
+    "cheerio": "^1.0.0-rc.12",
+    "methods": "~1.1.2",
+    "minify": "^14.1.0",
+    "try-to-catch": "^3.0.1",
+    "partial-classes": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "express": "~4.18.0",
+    "pug": "^3.0.3"
   }
 }
